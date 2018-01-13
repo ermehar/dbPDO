@@ -1,4 +1,3 @@
-
 # PHP PDO Database Library (dbPDO)
 A PDO class by which you can access mysql Databse easily using PHP Data Objects (PDO) extension.
 
@@ -58,7 +57,7 @@ else{ echo "Failed"; }
 ```
 
 
-#Select Query
+## Select Query
 
 For select data from the table we have get() method. Below is the example how get() method works:- 
 
@@ -132,7 +131,7 @@ print_r($records);
 ```
 
 
-#Run Query
+## Run Query
 
 runQuery() method use to run any select query statement. Below is the example of runQuery():-
 ```
@@ -146,7 +145,7 @@ print_r($records);
 ```
 
 
-#Where Method
+## Where Method
 
 The where() method is use for create where condition of the query. Where method works with operator, as well as without operator. If there is no any operator pass with where() method then Bydefault regular equal (==) operator will use. Below is the working of where()s method.
 
@@ -284,8 +283,9 @@ $records = $dbPDO->get($tablename);
 print_r($records);
 ?>
 ```
-## Developers
+
+## Developer Team
 Hello, Folks! If you have any suggestion or problem to use or any query regarding the dbPDO library, Do not hesitate, feel free to contact us anytime. Our contact details are described below:-
-* [Yashwant Mehar](mailto:yashwantmehar@gmail.com) - *Initial work and Support Developer* -
-* [Rohit Mandawar](mailto:rohitmandawara@gmail.com) - *Support Developer* -
-* [Prasoon Bajpai](mailto:prasoonb.22nov@gmail.com) - *Suport Developer* -
+* [Yashwant Mehar](mailto:yashwantmehar@gmail.com) - *Initial Development & Support* -
+* [Rohit Mandawar](mailto:rohitmandawara@gmail.com) - *Contributor & Support* -
+* [Prasoon Bajpai](mailto:prasoonb.22nov@gmail.com) - *Contributor & Suport* -
