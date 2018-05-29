@@ -6,7 +6,7 @@
  * @package   dbPDO
  * @author    Yashwant Mehar <yashwantmehar@gmail.com>
  * @copyright Copyright (c) 2017
- * @version   1.0
+ * @version   1.1
  **/
 class dbPDO
 {
@@ -42,7 +42,7 @@ class dbPDO
 	}
 	function __destruct()
 	{
-		unset($this);
+		$this=NULL;
 	}
 
 	/**
